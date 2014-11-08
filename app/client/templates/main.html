@@ -1,0 +1,22 @@
+<head>
+  <title>My Startup Tools</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Gildas Garcia, http://gildasgarcia.fr"/>
+  <meta name="fragment" content="!">
+  <!--
+  <meta name="google-site-verification" content="IjvbOt2bY9Jpz29k6P-JGPhOaKOJdEuLjkV3AgKuez4" />
+  -->
+  <link rel="alternate" href="http://mystartuptools.fr" hreflang="fr" />
+  <link rel="alternate" href="http://mystartuptools.com" hreflang="en" />
+</head>
+
+<template name="layout">
+  {{>searchProvidersMeta}}
+  {{>yield 'header'}}
+  <div id="viewport">
+    {{>yield}}
+     <div class="push"></div>
+  </div>
+  {{>yield 'footer'}}
+  {{> autoformModals}}
+</template>

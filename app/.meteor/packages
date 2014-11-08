@@ -1,0 +1,62 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+autopublish
+insecure
+coffeescript
+less
+email
+
+# Routing
+# ------------------------------------------------------------------------------
+iron:router
+zimme:iron-router-active
+
+# Collections
+# ------------------------------------------------------------------------------
+aldeed:simple-schema
+aldeed:autoform
+aldeed:collection2
+yogiben:autoform-modals
+matb33:collection-hooks
+dburles:collection-helpers
+percolatestudio:percolatestudio-migrations
+
+# i18n
+# ------------------------------------------------------------------------------
+tap:i18n
+mrt:moment@2.8.1
+gildaspk:moment-languages
+
+# Accounts
+# ------------------------------------------------------------------------------
+accounts-ui
+accounts-password
+accounts-google
+service-configuration
+useraccounts:bootstrap
+splendido:accounts-meld
+
+# UI
+# ------------------------------------------------------------------------------
+gildaspk:moment-datepicker
+zimme:bootstrap-growl
+anti:modals
+jeremy:selectize
+
+# Performances
+# ------------------------------------------------------------------------------
+meteorhacks:kadira
+meteorhacks:zones
+mycartio:newrelic
+
+# Tools
+# ------------------------------------------------------------------------------
+wizonesolutions:underscore-string
+cmather:handlebars-server@0.2.0
+raix:handlebar-helpers
+mike:mocha
+manuelschoebel:ms-seo

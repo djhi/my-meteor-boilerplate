@@ -1,0 +1,51 @@
+@import 'bootstrap/bootstrap.import.less';
+@import 'responsive-types.import.less';
+
+// Base structure =============================================================
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(/images/grain.png);
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  position: relative;
+}
+
+#viewport {
+  margin: 0 auto -8em;
+  min-height: 100%;
+  height: auto !important;
+
+  > .container {
+    padding-top: 35px;
+  }
+
+  > .push {
+    clear: both;
+    height: 8em;
+  }
+}
+
+.body-page-heading {
+  display: none;
+}
+
+.slide {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-image: url(/images/grain.png);
+}
+
+a.emphased {
+  .text-info();
+  font-weight: bold;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+a[title], i[title] {
+  cursor: pointer;
+}

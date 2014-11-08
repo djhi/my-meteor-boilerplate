@@ -1,0 +1,21 @@
+@import 'bootstrap/variables.import.less';
+
+.buttons-bar {
+  margin-top: @padding-small-vertical;
+
+  @media (min-width: @screen-md) {
+    margin-top: @padding-large-vertical;
+  }
+
+  .btn {
+    margin-top: @padding-small-vertical;
+    display: block;
+
+    @media (min-width: @screen-md) {
+      & {
+        display: inline;
+        margin-top: 0;
+      }
+    }
+  }
+}
