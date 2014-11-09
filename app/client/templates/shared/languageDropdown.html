@@ -1,0 +1,8 @@
+<template name="languagesDropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{currentLanguage}} <b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    {{#each languages}}
+      <li><a class="btn-set-language" href="#">{{name}} ({{englishName}})</a></li>
+    {{/each}}
+  </ul>
+</template>

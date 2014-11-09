@@ -1,0 +1,7 @@
+<template name="userDropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{currentUser.profile.fullname}} <b class="caret"></b></a>
+  <ul class="dropdown-menu">
+      <li><a href="{{pathFor 'profile'}}">{{_ 'profile'}}</a></li>
+      <li><a class="btn-sign-out" href="#">{{_ 'signOut'}}</a></li>
+  </ul>
+</template>
